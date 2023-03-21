@@ -43,7 +43,7 @@ public class TimeTicker extends JLabel implements ActionListener {
      */
     public TimeTicker(final Board theBoard) {
         super();
-        myTimer = new Timer(myDelay, this); // 1000 ms = 1 second
+        myTimer = new Timer(INITIAL_DELAY, this); // 1000 ms = 1 second
         myBoard = theBoard;
     }
 
